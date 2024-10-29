@@ -10,7 +10,7 @@ dataSources:
     source:
       address: "0xB3b7aA353F59f31aBB592455DeaA89a5dD4BC554"
       abi: Vault
-      startBlock: 40155762
+      startBlock: 43513203
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
@@ -52,7 +52,7 @@ dataSources:
     source:
       address: "0xf1cC405c16cc10Ce79fE564F83ee7516146B00D4"
       abi: WeightedPoolFactory
-      startBlock: 40155765
+      startBlock: 43513204
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
