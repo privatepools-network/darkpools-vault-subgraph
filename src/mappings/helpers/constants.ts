@@ -122,8 +122,8 @@ export let ZAPPER_ADDRESS = forNetwork(zapperAddressByNetwork);
 export let ZAPPER_ADDRESSES: Address[] = [
   Address.fromString('0xcc8282cd85119f4e26ef2052bc55e8bb71c095dc'),
   Address.fromString('0xf31f24194f01d865cbb68ce2324e0af1e3bc932a'),
-  Address.fromString('0x5981f011f893d5cf2bd3dc66de2ea524fb9e233c'),
-  Address.fromString('0xde0393b4a7589b50811aa10802c38ab6d5a4dacb'),
+  Address.fromString('0xc4d1b4b8798cfacce4cc77d53244580d5ace5a1a'),
+  Address.fromString('0xf1addaccc4814b8ea847d0d75e261784e48ccda0'),
 ];
 export let WETH: Address = forNetwork(wethAddressByNetwork);
 export let WMATIC: Address = forNetwork(wmaticAddressByNetwork);
