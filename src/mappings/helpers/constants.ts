@@ -26,13 +26,13 @@ let network: string = dataSource.network();
 let vaultAddressByNetwork: AddressByNetwork = {
   velas: '0x82A8d8B59a13eD9df879C1f450a379182661AB59',
   arbitrum: '0x82A8d8B59a13eD9df879C1f450a379182661AB59',
-  binance: '0x43223001aA561673807444df4A13c79156180d43',
+  binance: '0xB3b7aA353F59f31aBB592455DeaA89a5dD4BC554',
   polygon: '0xBC77248Ded7b5C1Cd32B0Ce1533421c332BBfa0b',
 };
 let profitDistributionAddressByNetwork: AddressByNetwork = {
   velas: '0x2fca8adce09bacdc45af36e2e2f39b71ae1d2800',
   arbitrum: '0x2fca8adce09bacdc45af36e2e2f39b71ae1d2800',
-  binance: '0x2fca8adce09bacdc45af36e2e2f39b71ae1d2800',
+  binance: '0xfAd4f78dDc184Ba6e0936521d2e9d2BB13587c6B',
   polygon: '0x2fca8adce09bacdc45af36e2e2f39b71ae1d2800',
 };
 let zapperAddressByNetwork: AddressByNetwork = {
@@ -123,6 +123,7 @@ export let ZAPPER_ADDRESSES: Address[] = [
   Address.fromString('0xcc8282cd85119f4e26ef2052bc55e8bb71c095dc'),
   Address.fromString('0xf31f24194f01d865cbb68ce2324e0af1e3bc932a'),
   Address.fromString('0x5981f011f893d5cf2bd3dc66de2ea524fb9e233c'),
+  Address.fromString('0xde0393b4a7589b50811aa10802c38ab6d5a4dacb'),
 ];
 export let WETH: Address = forNetwork(wethAddressByNetwork);
 export let WMATIC: Address = forNetwork(wmaticAddressByNetwork);
